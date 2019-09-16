@@ -9,3 +9,5 @@ greet.call(sally, 'Terry', 'George');
 greet.apply(sally, ['Terry', 'George']);
 
 let newGreet = greet.bind(sally);
+
+newGreet('Bob');
